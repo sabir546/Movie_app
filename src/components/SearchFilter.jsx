@@ -130,23 +130,23 @@ const SearchFilter = () => {
 
   return (
     <div className="p-5 bg-light">
-      <div className="bg-white shadow border flex items-center gap-2 py-3">
-        <h4 className="px-2">Search:</h4>
-        {/* SEARCH BY TITLE INPUT SECTION */}
+      <div class="bg-white shadow border flex flex-col md:flex-row items-center gap-2 py-3">
+        <h4 class="px-2">Search:</h4>
+        {/* <!-- SEARCH BY TITLE INPUT SECTION --> */}
         <input
           type="text"
           name="Title"
-          className="form-control p-2 shadow border  rounded-sm"
+          class="form-control p-2 shadow border rounded-sm"
           onChange={handleFilterChange}
           placeholder="Search By Title"
         />
 
-        <div>
-          {/* THIS IS GENER SELECTION SECTION */}
+        <div class="md:ml-2">
+          {/* <!-- THIS IS GENRE SELECTION SECTION --> */}
           <select
             value={selectedTitle}
             onChange={handleFilterChanges}
-            className="form-select bg-white shadow border flex items-center  py-2"
+            class="form-select bg-white shadow border flex items-center py-2"
           >
             <option value="">Select Genre </option>
             {products.map((item) => (
@@ -157,16 +157,17 @@ const SearchFilter = () => {
           </select>
         </div>
 
-        <h4 className="px-2">Search:</h4>
-        {/* SEARCH BY YEAR INPUT SECTION */}
+        <h4 class="px-2 md:ml-2">Search:</h4>
+        {/* <!-- SEARCH BY YEAR INPUT SECTION --> */}
         <input
           type="number"
           name="Year"
-          className="form-control p-2 shadow border  rounded-sm"
+          class="form-control p-2 shadow border rounded-sm"
           onChange={handleFilterChange}
           placeholder="Search By Year"
         />
       </div>
+
       <div className=" bg-gray-100 flex justify-center items-center">
         <div className="max-w-screen-l w-full">
           <h2 className="text-3xl font-bold text-gray-800 mb-6 text-left">
