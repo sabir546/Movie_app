@@ -1,15 +1,12 @@
-/* *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-height: 100%;
-width: 100%; 
-} */
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
-*/
+body {
+  font-family: cursive;
+}
+ 
 .logo{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -17,15 +14,7 @@ width: 100%;
   font-style: 20px;
 } 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: cursive;
-}
 
 a {
   text-decoration: none;
@@ -50,6 +39,7 @@ li {
   padding: 20px;
   background-color: teal;
   color: #fff;
+
 }
 
 .nav-links a {
@@ -85,9 +75,7 @@ li {
 
 /* CHECKBOX HACK */
 
-input[type=checkbox] {
-  display: none;
-} 
+
 
 /* HAMBURGER MENU */
 .hamburger {
@@ -137,3 +125,7 @@ input[type=checkbox] {
     background-color: #4c9e9e;
   }
 }
+
+input[type=checkbox] {
+  display: none;
+}  

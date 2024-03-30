@@ -1,13 +1,20 @@
 import React from "react";
-
+// import { useTheme } from "./ThemeContext";
 const Navigation = () => {
+  // const { theme, toggleTheme } = useTheme();
   return (
-    <div>
-      <nav className="navbar">
+    <div style={{ backgroundColor: "#F3F4F6" }} className="">
+      <nav className="navbar rounded-sm">
         {/* <!-- LOGO --> */}
         <div className="logo">
-    <h2>WINIT</h2>
+          <h2>WINIT</h2>
         </div>
+
+        {/* <header className={theme === 'light' ? 'bg-white' : 'bg-gray-800'}>
+      <button onClick={toggleTheme}>
+        {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+      </button>
+    </header> */}
 
         {/* <!-- NAVIGATION MENU --> */}
         <ul className="nav-links">

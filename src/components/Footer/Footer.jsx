@@ -3,7 +3,7 @@ import React from "react";
 import { Grid, Typography } from "@mui/material";
 const Footer = () => {
   return (
-    <div className="px-5">
+    <div className="">
       <Grid
         className=" text-center   "
         container
