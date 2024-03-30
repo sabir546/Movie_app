@@ -123,6 +123,8 @@ const SearchFilter = () => {
 
   const handleClickMovie = (movie) => {
     // handle movie click
+    const selectedMovie = products.find((movie) => movie.id === id);
+    setMovie(selectedMovie);
   };
 
   return (

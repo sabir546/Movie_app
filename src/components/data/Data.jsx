@@ -2,6 +2,7 @@ export const products = [
   {
     Title: "PK",
     Year: "2014",
+    id:1,
     imdbRating: "8.1/10",
     Directed: "Rajkumar Hirani",
     Released: "19 December 2014",
@@ -16,6 +17,7 @@ export const products = [
   {
     Title: "Super 30",
     Year: "2019",
+    id:2,
     imdbRating: "8/10",
     Directed: "Vikas Bahl",
     Released: "12 July 2019",
@@ -31,6 +33,7 @@ export const products = [
   {
     Title: "Salar",
     Year: "2023",
+    id:3, 
     imdbRating: "6.6/10",
     Directed: " Prashanth Neel",
     Released: " 22 December 2023",
@@ -45,6 +48,8 @@ export const products = [
   {
     Title: "Chhichhore",
     Year: "2019",
+    id:4, 
+
     imdbRating: "8.2/10",
     Directed: "Nitesh Tiwari",
     Released: "6 September 2019",
@@ -59,6 +64,8 @@ export const products = [
   {
     Title: "Uri",
     Year: "2019",
+    id:5, 
+
     imdbRating: "8.2/10",
     Directed: "Aditya Dhar",
     Released: "11 January 2019",
@@ -73,6 +80,8 @@ export const products = [
   {
     Title: "Stree",
     Year: "2018",
+    id:6, 
+    
     imdbRating: "7.6/10",
     Directed: "Amar Kaushik",
     Released: "31 August 2018",
@@ -87,6 +96,8 @@ export const products = [
   {
     Title: "Lal Singh Chaddha",
     Year: "2022",
+    id:7, 
+    
     imdbRating: "7.9/10",
     Directed: "Advait Chandan",
     Released: "24 December 2021",
@@ -101,6 +112,8 @@ export const products = [
   {
     Title: "Baahubali",
     Year: "2017",
+    id:8, 
+
     imdbRating: "8.2/10",
     Directed: "S.S. Rajamouli",
     Released: "28 April 2017",
@@ -115,6 +128,8 @@ export const products = [
   {
     Title: "3 Idiots",
     Year: "2009",
+    id:9, 
+
     imdbRating: "8.4/10",
     Directed: "Rajkumar Hirani",
     Released: "25 December 2009",
@@ -129,6 +144,8 @@ export const products = [
   {
     Title: "Dangal",
     Year: "2016",
+    id:10, 
+
     imdbRating: "8.4/10",
     Directed: "Nitesh Tiwari",
     Released: "21 December 2016",
@@ -142,6 +159,8 @@ export const products = [
   {
     Title: "Gully Boy",
     Year: "2019",
+    id:11, 
+
     imdbRating: "8.1/10",
     Directed: "Zoya Akhtar",
     Released: "14 February 2019",
@@ -156,6 +175,8 @@ export const products = [
   {
     Title: "Andhadhun",
     Year: "2018",
+    id:12, 
+
     imdbRating: "8.3/10",
     Directed: "Sriram Raghavan",
     Released: "5 October 2018",
@@ -169,6 +190,7 @@ export const products = [
   },
   {
     Title: "Article 15",
+    id:13, 
     Year: "2019",
     imdbRating: "8.2/10",
     Directed: "Anubhav Sinha",
@@ -183,6 +205,7 @@ export const products = [
   },
   {
     Title: "Ludo",
+    id:13, 
     Year: "2020",
     imdbRating: "7.6/10",
     Directed: "Anurag Basu",
@@ -199,6 +222,8 @@ export const products = [
   {
     Title: "Avatar",
     Year: "2009",
+    id:15, 
+
     Rated: "PG-13",
     Released: "18 Dec 2009",
     Runtime: "162 min",
@@ -207,7 +232,7 @@ export const products = [
     Writer: "James Cameron",
     Actors: "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
     Plot: "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-    Language: "English, Spanish",
+    Languages: "English, Spanish",
     Country: "USA, UK",
     Awards: "Won 3 Oscars. Another 80 wins & 121 nominations.",
     Poster:
@@ -229,6 +254,8 @@ export const products = [
   {
     Title: "I Am Legend",
     Year: "2007",
+    id:16, 
+
     Rated: "PG-13",
     Released: "14 Dec 2007",
     Runtime: "101 min",
@@ -239,7 +266,7 @@ export const products = [
     Actors:
       "Will Smith, Alice Braga, Charlie Tahan, Salli Richardson-Whitfield",
     Plot: "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "9 wins & 21 nominations.",
     Poster:
@@ -260,6 +287,7 @@ export const products = [
   {
     Title: "300",
     Year: "2006",
+    id:17, 
     Rated: "R",
     Released: "09 Mar 2007",
     Runtime: "117 min",
@@ -269,7 +297,7 @@ export const products = [
       "Zack Snyder (screenplay), Kurt Johnstad (screenplay), Michael Gordon (screenplay), Frank Miller (graphic novel), Lynn Varley (graphic novel)",
     Actors: "Gerard Butler, Lena Headey, Dominic West, David Wenham",
     Plot: "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "16 wins & 42 nominations.",
     Poster:
@@ -290,6 +318,8 @@ export const products = [
     Title: "The Avengers",
     Year: "2012",
     Rated: "PG-13",
+    id:18, 
+
     Released: "04 May 2012",
     Runtime: "143 min",
     Genre: "Action, Sci-Fi, Thriller",
@@ -297,7 +327,7 @@ export const products = [
     Writer: "Joss Whedon (screenplay), Zak Penn (story), Joss Whedon (story)",
     Actors: "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
     Plot: "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
-    Language: "English, Russian",
+    Languages: "English, Russian",
     Country: "USA",
     Awards: "Nominated for 1 Oscar. Another 34 wins & 75 nominations.",
     Poster:
@@ -320,6 +350,8 @@ export const products = [
     Title: "The Wolf of Wall Street",
     Year: "2013",
     Rated: "R",
+    id:19, 
+
     Released: "25 Dec 2013",
     Runtime: "180 min",
     Genre: "Biography, Crime",
@@ -327,7 +359,7 @@ export const products = [
     Writer: "Terence Winter (screenplay), Jordan Belfort (book)",
     Actors: "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
     Plot: "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-    Language: "English, French",
+    Languages: "English, French",
     Country: "USA",
     Awards: "Nominated for 5 Oscars. Another 35 wins & 154 nominations.",
     Poster:
@@ -349,6 +381,8 @@ export const products = [
   {
     Title: "Interstellar",
     Year: "2014",
+    id:20, 
+
     Rated: "PG-13",
     Released: "07 Nov 2014",
     Runtime: "169 min",
@@ -357,7 +391,7 @@ export const products = [
     Writer: "Jonathan Nolan, Christopher Nolan",
     Actors: "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
     Plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    Language: "English",
+    Languages: "English",
     Country: "USA, UK",
     Awards: "Won 1 Oscar. Another 39 wins & 134 nominations.",
     Poster:
@@ -380,6 +414,8 @@ export const products = [
     Title: "Game of Thrones",
     Year: "2011–",
     Rated: "TV-MA",
+    id:21, 
+
     Released: "17 Apr 2011",
     Runtime: "56 min",
     Genre: "Adventure, Drama, Fantasy",
@@ -387,7 +423,7 @@ export const products = [
     Writer: "David Benioff, D.B. Weiss",
     Actors: "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
     Plot: "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years in the North.",
-    Language: "English",
+    Languages: "English",
     Country: "USA, UK",
     Awards: "Won 1 Golden Globe. Another 185 wins & 334 nominations.",
     Poster:
@@ -411,6 +447,8 @@ export const products = [
     Title: "Vikings",
     Year: "2013–",
     Rated: "TV-14",
+    id:22, 
+
     Released: "03 Mar 2013",
     Runtime: "44 min",
     Genre: "Action, Drama, History",
@@ -418,7 +456,7 @@ export const products = [
     Writer: "Michael Hirst",
     Actors: "Travis Fimmel, Clive Standen, Gustaf Skarsgård, Katheryn Winnick",
     Plot: "The world of the Vikings is brought to life through the journey of Ragnar Lothbrok, the first Viking to emerge from Norse legend and onto the pages of history - a man on the edge of myth.",
-    Language: "English, Old English, Norse, Old, Latin",
+    Languages: "English, Old English, Norse, Old, Latin",
     Country: "Ireland, Canada",
     Awards:
       "Nominated for 7 Primetime Emmys. Another 17 wins & 49 nominations.",
@@ -442,6 +480,8 @@ export const products = [
   {
     Title: "Gotham",
     Year: "2014–",
+    id:23, 
+
     Rated: "TV-14",
     Released: "01 Aug 2014",
     Runtime: "42 min",
@@ -450,7 +490,7 @@ export const products = [
     Writer: "Bruno Heller",
     Actors: "Ben McKenzie, Donal Logue, David Mazouz, Sean Pertwee",
     Plot: "The story behind Detective James Gordon's rise to prominence in Gotham City in the years before Batman's arrival.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "Nominated for 4 Primetime Emmys. Another 3 wins & 22 nominations.",
     Poster:
@@ -474,6 +514,8 @@ export const products = [
     Title: "Power",
     Year: "2014–",
     Rated: "TV-MA",
+    id:24, 
+
     Released: "N/A",
     Runtime: "50 min",
     Genre: "Action,Crime, Drama",
@@ -481,7 +523,7 @@ export const products = [
     Writer: "Courtney Kemp Agboh",
     Actors: "Omari Hardwick, Joseph Sikora, Andy Bean, Lela Loren",
     Plot: 'James "Ghost" St. Patrick, a wealthy New York night club owner who has it all, catering for the city\'s elite and dreaming big, lives a double life as a drug kingpin.',
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "1 win & 6 nominations.",
     Poster:
@@ -505,6 +547,8 @@ export const products = [
     Title: "Narcos",
     Year: "2015–",
     Rated: "TV-MA",
+    id:25, 
+
     Released: "28 Aug 2015",
     Runtime: "49 min",
     Genre: "Biography, Crime, Drama",
@@ -512,7 +556,7 @@ export const products = [
     Writer: "Carlo Bernard, Chris Brancato, Doug Miro, Paul Eckstein",
     Actors: "Wagner Moura, Boyd Holbrook, Pedro Pascal, Joanna Christie",
     Plot: "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.",
-    Language: "English, Spanish",
+    Languages: "English, Spanish",
     Country: "USA",
     Awards: "Nominated for 2 Golden Globes. Another 4 nominations.",
     Poster:
@@ -536,6 +580,8 @@ export const products = [
     Title: "Breaking Bad",
     Year: "2008–2013",
     Rated: "TV-14",
+    id:26, 
+
     Released: "20 Jan 2008",
     Runtime: "49 min",
     Genre: "Crime, Drama, Thriller",
@@ -543,7 +589,7 @@ export const products = [
     Writer: "Vince Gilligan",
     Actors: "Bryan Cranston, Anna Gunn, Aaron Paul, Dean Norris",
     Plot: "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's financial future.",
-    Language: "English, Spanish",
+    Languages: "English, Spanish",
     Country: "USA",
     Awards: "Won 2 Golden Globes. Another 132 wins & 218 nominations.",
     Poster:
@@ -567,6 +613,8 @@ export const products = [
     ComingSoon: true,
     Title: "Doctor Strange",
     Year: "2016",
+    id:27, 
+
     Rated: "N/A",
     Released: "04 Nov 2016",
     Runtime: "N/A",
@@ -577,7 +625,7 @@ export const products = [
     Actors:
       "Rachel McAdams, Benedict Cumberbatch, Mads Mikkelsen, Tilda Swinton",
     Plot: "After his career is destroyed, a brilliant but arrogant and conceited surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "N/A",
     Poster:
@@ -598,6 +646,8 @@ export const products = [
     ComingSoon: true,
     Title: "Rogue One",
     Year: "2016",
+    id:28, 
+
     Rated: "N/A",
     Released: "16 Dec 2016",
     Runtime: "N/A",
@@ -607,7 +657,7 @@ export const products = [
       "Chris Weitz (screenplay), Tony Gilroy (screenplay), John Knoll (story), Gary Whitta (story), George Lucas (characters)",
     Actors: "Felicity Jones, Riz Ahmed, Mads Mikkelsen, Ben Mendelsohn",
     Plot: "The Rebellion makes a risky move to steal the plans to the Death Star, setting up the epic saga to follow.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "1 nomination.",
     Poster:
@@ -630,6 +680,8 @@ export const products = [
     ComingSoon: true,
     Title: "Assassin's Creed",
     Year: "2016",
+    id:29, 
+
     Rated: "N/A",
     Released: "21 Dec 2016",
     Runtime: "N/A",
@@ -640,7 +692,7 @@ export const products = [
     Actors:
       "Michael Fassbender, Michael Kenneth Williams, Marion Cotillard, Jeremy Irons",
     Plot: "When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.",
-    Language: "English",
+    Languages: "English",
     Country: "UK, France, USA, Hong Kong",
     Awards: "N/A",
     Poster:
@@ -663,6 +715,8 @@ export const products = [
     Title: "Luke Cage",
     Year: "2016–",
     Rated: "TV-MA",
+    id:30, 
+
     Released: "30 Sep 2016",
     Runtime: "55 min",
     Genre: "Action, Crime, Drama",
@@ -670,7 +724,7 @@ export const products = [
     Writer: "Cheo Hodari Coker",
     Actors: "Mahershala Ali, Mike Colter, Frankie Faison, Erik LaRay Harvey",
     Plot: "Given superstrength and durability by a sabotaged experiment, a wrongly accused man escapes prison to become a superhero for hire.",
-    Language: "English",
+    Languages: "English",
     Country: "USA",
     Awards: "N/A",
     Poster:
