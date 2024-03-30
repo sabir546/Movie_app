@@ -5,13 +5,10 @@ import Navigation from "./components/Nav/Navigation";
 import Footer from "./components/Footer/Footer";
 import SearchFilter from "./components/Filters/SearchFilter";
 import MovieDetails from "./components/CardSection/MovieDetails";
-// import MovieCart from "./components/CardSection/MovieCard";
-// import { ThemeProvider } from './components/Nav/DarkAndLightMode/ThemContext';
 
 
 function App() {
   return (
-    // <ThemeProvider>
     <Router>
       <div className="App">
         <Navigation />
@@ -22,7 +19,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-    // </ThemeProvider>
   );
 }
 

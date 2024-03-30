@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         container
         sx={{ bgcolor: "#008080", color: "white", py: 3 }}
       >
-        <Grid item xs={12} sm={6} md={3}>
+        {/* <Grid item xs={12} sm={6} md={3}>
           <Typography className="pb-3 " varient="h6">
             Company
           </Typography>
@@ -71,7 +71,7 @@ const Footer = () => {
               Term
             </Button>
           </div>
-        </Grid>
+        </Grid> */}
 
         <Grid className="pt-5" item xs={12}>
           <Typography variant="body2" component="p" align="center">
@@ -80,7 +80,7 @@ const Footer = () => {
           </Typography>
 
           <Typography variant="body2" component="p" align="center">
-            Made with love by Me.
+           <a href="https://github.com/sabir546"> Made with love by Me.</a>
           </Typography>
         </Grid>
       </Grid>

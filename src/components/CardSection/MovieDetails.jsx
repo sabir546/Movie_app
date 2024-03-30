@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../data/Data"; // Import your JSON movie data
-
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 const MovieDetails = () => {
   const { id } = useParams(); // Get movie ID from URL params
   const [movie, setMovie] = useState(null);
@@ -22,13 +22,22 @@ const MovieDetails = () => {
         <div className="md:flex">
           <div className="md:flex-shrink-0 max-h-60 max-w-60">
             <img
-              className="h-full mt-5 w-full object-cover rounded-xl"
+              className="h-full mt-10 w-full object-cover rounded-xl"
               src={movie.Images}
               alt={movie.Title}
             />
-            <button className="mt-6 ml-5   px-6 py-2 bg-green-600 border border-green-600 rounded-md text-white hover:bg-green-700 focus:outline-none focus:border-green-700 focus:ring focus:ring-green-200">
-              Download
-            </button>
+            <div className="flex items-center justify-between">
+              <a
+                href="/"
+                className=" mt-6    px-6 py-2 bg-green-600 border border-green-600 rounded-md text-white hover:bg-green-700 focus:outline-none focus:border-green-700 focus:ring focus:ring-green-200"
+              >
+                Back
+              </a>
+
+              <button className="mt-6 ml-2   px-6 py-2 bg-green-600 border border-green-600 rounded-md text-white hover:bg-green-700 focus:outline-none focus:border-green-700 focus:ring focus:ring-green-200">
+                Download
+              </button>
+            </div>
           </div>
           <div className="p-4 md:p-8">
             <div className="uppercase tracking-wide text-xl text-red-500 font-semibold">

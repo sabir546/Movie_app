@@ -2,7 +2,7 @@ export const products = [
   {
     Title: "PK",
     Year: "2014",
-    id:1,
+    id: 1,
     imdbRating: "8.1/10",
     Directed: "Rajkumar Hirani",
     Released: "19 December 2014",
@@ -17,7 +17,7 @@ export const products = [
   {
     Title: "Super 30",
     Year: "2019",
-    id:2,
+    id: 2,
     imdbRating: "8/10",
     Directed: "Vikas Bahl",
     Released: "12 July 2019",
@@ -33,7 +33,7 @@ export const products = [
   {
     Title: "Salar",
     Year: "2023",
-    id:3, 
+    id: 3,
     imdbRating: "6.6/10",
     Directed: " Prashanth Neel",
     Released: " 22 December 2023",
@@ -48,7 +48,7 @@ export const products = [
   {
     Title: "Chhichhore",
     Year: "2019",
-    id:4, 
+    id: 4,
 
     imdbRating: "8.2/10",
     Directed: "Nitesh Tiwari",
@@ -64,7 +64,7 @@ export const products = [
   {
     Title: "Uri",
     Year: "2019",
-    id:5, 
+    id: 5,
 
     imdbRating: "8.2/10",
     Directed: "Aditya Dhar",
@@ -80,8 +80,8 @@ export const products = [
   {
     Title: "Stree",
     Year: "2018",
-    id:6, 
-    
+    id: 6,
+
     imdbRating: "7.6/10",
     Directed: "Amar Kaushik",
     Released: "31 August 2018",
@@ -96,8 +96,8 @@ export const products = [
   {
     Title: "Lal Singh Chaddha",
     Year: "2022",
-    id:7, 
-    
+    id: 7,
+
     imdbRating: "7.9/10",
     Directed: "Advait Chandan",
     Released: "24 December 2021",
@@ -112,7 +112,7 @@ export const products = [
   {
     Title: "Baahubali",
     Year: "2017",
-    id:8, 
+    id: 8,
 
     imdbRating: "8.2/10",
     Directed: "S.S. Rajamouli",
@@ -128,7 +128,7 @@ export const products = [
   {
     Title: "3 Idiots",
     Year: "2009",
-    id:9, 
+    id: 9,
 
     imdbRating: "8.4/10",
     Directed: "Rajkumar Hirani",
@@ -144,7 +144,7 @@ export const products = [
   {
     Title: "Dangal",
     Year: "2016",
-    id:10, 
+    id: 10,
 
     imdbRating: "8.4/10",
     Directed: "Nitesh Tiwari",
@@ -159,7 +159,7 @@ export const products = [
   {
     Title: "Gully Boy",
     Year: "2019",
-    id:11, 
+    id: 11,
 
     imdbRating: "8.1/10",
     Directed: "Zoya Akhtar",
@@ -175,7 +175,7 @@ export const products = [
   {
     Title: "Andhadhun",
     Year: "2018",
-    id:12, 
+    id: 12,
 
     imdbRating: "8.3/10",
     Directed: "Sriram Raghavan",
@@ -188,24 +188,10 @@ export const products = [
     Images:
       "https://th.bing.com/th/id/OIP.fNJPM3AA6Y7x0mqwkuX5agHaKs?w=147&h=212&c=7&r=0&o=5&dpr=1.5&pid=1.7",
   },
-  {
-    Title: "Article 15",
-    id:13, 
-    Year: "2019",
-    imdbRating: "8.2/10",
-    Directed: "Anubhav Sinha",
-    Released: "28 June 2019",
-    Genre: "Crime, Drama",
-    Languages: "Hindi",
-    Actors: "Ayushmann Khurrana, Isha Talwar, Sayani Gupta",
-    Quality: "1080p 720p WEB-DL",
-    Plot: "A young IPS officer's new posting in rural India has him confronting caste disparities and uncomfortable truths in the face of a gruesome crime. When three girls go missing in the fictional village of Lalgaon, two of them are found dead and there is no trace of the third one.",
-    Images:
-      "https://th.bing.com/th/id/OIP.3edMPpDDnvODzHB5ap9pDAHaKs?pid=ImgDet&w=178&h=256&c=7&dpr=1.5",
-  },
+
   {
     Title: "Ludo",
-    id:13, 
+    id: 13,
     Year: "2020",
     imdbRating: "7.6/10",
     Directed: "Anurag Basu",
@@ -218,11 +204,27 @@ export const products = [
     Images:
       "https://th.bing.com/th/id/OIP.pGAOmEm8zuOOO8q6nUkN3wAAAA?pid=ImgDet&w=178&h=249&c=7&dpr=1.5",
   },
+  {
+    Title: "Dhamaal",
+    id: 15,
+    Year: "2007",
+    imdbRating: "7.3/10",
+    Directed: "Indra Kumar",
+    Released: "7 September 2007",
+    Genre: "Comedy,Adventure",
+    Languages: "Hindi",
+    Actors: ["Sanjay Dutt", "Ritesh Deshmukh", "Arshad Warsi"],
+    Quality: ["1080p", "720p", "DVD"],
+    Plot: "Four lazy friends accidentally kill their boss and embark on an adventure to find his hidden treasure.",
+    Images: [
+      "https://livemovieweb.com/wp-content/uploads/2021/07/pQgU9W1OyHDxBOZcJpVLc2E8gQa.jpg",
+    ],
+  },
 
   {
     Title: "Avatar",
     Year: "2009",
-    id:15, 
+    id: 15,
 
     Rated: "PG-13",
     Released: "18 Dec 2009",
@@ -254,7 +256,7 @@ export const products = [
   {
     Title: "I Am Legend",
     Year: "2007",
-    id:16, 
+    id: 16,
 
     Rated: "PG-13",
     Released: "14 Dec 2007",
@@ -287,7 +289,7 @@ export const products = [
   {
     Title: "300",
     Year: "2006",
-    id:17, 
+    id: 17,
     Rated: "R",
     Released: "09 Mar 2007",
     Runtime: "117 min",
@@ -318,7 +320,7 @@ export const products = [
     Title: "The Avengers",
     Year: "2012",
     Rated: "PG-13",
-    id:18, 
+    id: 18,
 
     Released: "04 May 2012",
     Runtime: "143 min",
@@ -350,7 +352,7 @@ export const products = [
     Title: "The Wolf of Wall Street",
     Year: "2013",
     Rated: "R",
-    id:19, 
+    id: 19,
 
     Released: "25 Dec 2013",
     Runtime: "180 min",
@@ -381,7 +383,7 @@ export const products = [
   {
     Title: "Interstellar",
     Year: "2014",
-    id:20, 
+    id: 20,
 
     Rated: "PG-13",
     Released: "07 Nov 2014",
@@ -414,7 +416,7 @@ export const products = [
     Title: "Game of Thrones",
     Year: "2011–",
     Rated: "TV-MA",
-    id:21, 
+    id: 21,
 
     Released: "17 Apr 2011",
     Runtime: "56 min",
@@ -447,7 +449,7 @@ export const products = [
     Title: "Vikings",
     Year: "2013–",
     Rated: "TV-14",
-    id:22, 
+    id: 22,
 
     Released: "03 Mar 2013",
     Runtime: "44 min",
@@ -480,7 +482,7 @@ export const products = [
   {
     Title: "Gotham",
     Year: "2014–",
-    id:23, 
+    id: 23,
 
     Rated: "TV-14",
     Released: "01 Aug 2014",
@@ -514,7 +516,7 @@ export const products = [
     Title: "Power",
     Year: "2014–",
     Rated: "TV-MA",
-    id:24, 
+    id: 24,
 
     Released: "N/A",
     Runtime: "50 min",
@@ -547,7 +549,7 @@ export const products = [
     Title: "Narcos",
     Year: "2015–",
     Rated: "TV-MA",
-    id:25, 
+    id: 25,
 
     Released: "28 Aug 2015",
     Runtime: "49 min",
@@ -580,7 +582,7 @@ export const products = [
     Title: "Breaking Bad",
     Year: "2008–2013",
     Rated: "TV-14",
-    id:26, 
+    id: 26,
 
     Released: "20 Jan 2008",
     Runtime: "49 min",
@@ -613,7 +615,7 @@ export const products = [
     ComingSoon: true,
     Title: "Doctor Strange",
     Year: "2016",
-    id:27, 
+    id: 27,
 
     Rated: "N/A",
     Released: "04 Nov 2016",
@@ -646,7 +648,7 @@ export const products = [
     ComingSoon: true,
     Title: "Rogue One",
     Year: "2016",
-    id:28, 
+    id: 28,
 
     Rated: "N/A",
     Released: "16 Dec 2016",
@@ -680,7 +682,7 @@ export const products = [
     ComingSoon: true,
     Title: "Assassin's Creed",
     Year: "2016",
-    id:29, 
+    id: 29,
 
     Rated: "N/A",
     Released: "21 Dec 2016",
@@ -715,7 +717,7 @@ export const products = [
     Title: "Luke Cage",
     Year: "2016–",
     Rated: "TV-MA",
-    id:30, 
+    id: 30,
 
     Released: "30 Sep 2016",
     Runtime: "55 min",
