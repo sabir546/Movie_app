@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../data/Data"; // Import your JSON movie data
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
 const MovieDetails = () => {
   const { id } = useParams(); // Get movie ID from URL params
   const [movie, setMovie] = useState(null);

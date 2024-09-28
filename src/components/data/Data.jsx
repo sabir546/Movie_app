@@ -12,7 +12,7 @@ export const products = [
     Quality: "1080p 720p BluRay",
     Plot: "An alien on Earth loses his remote control and is stranded on the planet. He meets a friendly journalist and together they embark on a journey to find his lost remote and understand human behavior.",
     Images:
-      "https://th.bing.com/th?q=PK+Movie+Cast&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247",
+      "https://th.bing.com/th/id/OIP.sJD4o9C2hOf4LQAl2bbFqgHaI3?pid=ImgDet&w=178&h=212&c=7&dpr=1.5",
   },
   {
     Title: "Super 30",
@@ -59,7 +59,7 @@ export const products = [
     Quality: "1080p 720p WEB-DL",
     Plot: "A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.",
     Images:
-      "https://th.bing.com/th/id/OIP.H6N9RPQuhoR2p0W5KTOh9QHaD4?w=287&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://th.bing.com/th/id/OIP.oA0xjMMt24lBDIhQ2Uyb7AHaHa?w=158&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
   },
   {
     Title: "Uri",
@@ -75,7 +75,7 @@ export const products = [
     Quality: "1080p 720p BluRay",
     Plot: "Indian army special forces execute a covert operation, avenging the killing of fellow army men at their base by a terrorist group.",
     Images:
-      "https://th.bing.com/th/id/OIP.mtyDsVMJj7o8E4ZDF89n6AHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://th.bing.com/th/id/OIP.QmmKG5aYfc7yS-pt7_lZvQHaKd?pid=ImgDet&w=178&h=251&c=7&dpr=1.5",
   },
   {
     Title: "Stree",
@@ -217,7 +217,7 @@ export const products = [
     Quality: ["1080p", "720p", "DVD"],
     Plot: "Four lazy friends accidentally kill their boss and embark on an adventure to find his hidden treasure.",
     Images: [
-      "https://livemovieweb.com/wp-content/uploads/2021/07/pQgU9W1OyHDxBOZcJpVLc2E8gQa.jpg",
+      "https://th.bing.com/th/id/OIP.v2E04IsUNBXW1pqGGJDT8gHaLH?pid=ImgDet&w=178&h=267&c=7&dpr=1.5",
     ],
   },
 
